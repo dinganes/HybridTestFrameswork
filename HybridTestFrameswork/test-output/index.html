@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\GREENS TECH\AppData\Local\Temp\testng-eclipse-1543674972\testng-customsuite.xml</span>
+                    <span>C:\Users\GREENS TECH\AppData\Local\Temp\testng-eclipse-1789049037\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -127,13 +127,10 @@
                   <a name="loginApp">
                   </a> <!-- loginApp -->
                   <span class="method-name">loginApp</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at com.webapp.testcases.LoginPage.loginApp(LoginPage.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+                  <div class="stack-trace">org.testng.TestNGException: 
+Can&apos;t invoke public void com.webapp.testcases.LoginPage.loginApp(): either make it static or add a no-args constructor to your class
+	at org.testng.internal.Utils.checkInstanceOrStatic(Utils.java:795)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:40)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
@@ -162,7 +159,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\GREENS TECH\AppData\Local\Temp\testng-eclipse-1543674972\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\GREENS TECH\AppData\Local\Temp\testng-eclipse-1789049037\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -215,12 +212,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginApp')
 data.setCell(0, 2, 'com.webapp.testcases.LoginPage')
-data.setCell(0, 3, 23610);
+data.setCell(0, 3, 15);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 23 seconds</span>
+              <span class="suite-total-time">Total running time: 15 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
